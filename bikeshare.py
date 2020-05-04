@@ -175,17 +175,18 @@ def user_stats(df):
         try:
             gender= df['Gender'].value_counts()
             print(gender)
-            
+    
+    # TO DO: Display earliest, most recent, and most common year of birth        
             first_birthday= df['Birth Year'].min()
             print("First birth year is:{}".format(first_birthday))
             
             latest_birthday=df['Birth Year'].max()
-            most_common_birthday=df['Birth Year'].mode()[0]
-            
-    # TO DO: Display earliest, most recent, and most common year of birth
-            
             print("Latest birth year is : {}".format(latest_birthday))
+
+            most_common_birthday=df['Birth Year'].mode()[0]
             print("Most common birth year is : {}".format(most_common_birthday))
+            
+   
             break
         except:
             print("There is no such column")
