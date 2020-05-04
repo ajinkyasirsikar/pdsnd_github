@@ -174,6 +174,7 @@ def user_stats(df):
     # Start an error-handling block
         try:
             gender= df['Gender'].value_counts()
+            print(gender)
             first_birthday= df['Birth Year'].min()
             latest_birthday=df['Birth Year'].max()
             most_common_birthday=df['Birth Year'].mode()[0]
