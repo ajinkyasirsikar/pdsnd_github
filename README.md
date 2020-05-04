@@ -19,3 +19,6 @@ Ajinkya
 ### Gender
 Male/Female
 
+### Location
+New York
+
