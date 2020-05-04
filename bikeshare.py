@@ -175,12 +175,15 @@ def user_stats(df):
         try:
             gender= df['Gender'].value_counts()
             print(gender)
+            
             first_birthday= df['Birth Year'].min()
+            print("First birth year is:{}".format(first_birthday))
+            
             latest_birthday=df['Birth Year'].max()
             most_common_birthday=df['Birth Year'].mode()[0]
-            print(gender)
+            
     # TO DO: Display earliest, most recent, and most common year of birth
-            print("First birth year is:{}".format(first_birthday))
+            
             print("Latest birth year is : {}".format(latest_birthday))
             print("Most common birth year is : {}".format(most_common_birthday))
             break
