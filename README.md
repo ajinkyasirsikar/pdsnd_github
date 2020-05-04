@@ -17,7 +17,7 @@ It's important to give proper credit. Add links to any repo that inspired you or
 Ajinkya Sirsikar
 
 ### Gender
-Male/Female
+Ajinkya is male
 
 ### Location
 New York
