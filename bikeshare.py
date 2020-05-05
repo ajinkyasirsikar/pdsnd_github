@@ -20,6 +20,9 @@ def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    name= input("Enter user name: ")
+    print ("The program is now run by ",name)
+
     while True:
     # Start an error-handling block
         try:
