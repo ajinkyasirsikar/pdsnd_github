@@ -2,13 +2,13 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Stats for Chicago, Washington & NYC
 
 ### Description
-Describe what your project is about and what it does
+This project is to determine the bikeshare stats for Chicago, NYC and Washington
 
 ### Files used
-Include the files used
+The files used are chicago.csv, washington.csv, nyc.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
