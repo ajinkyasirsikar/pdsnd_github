@@ -2,7 +2,7 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Stats for Chicago, Washington & NYC
 
 ### Description
 This project is to determine the bikeshare stats for Chicago, NYC and Washington
